@@ -229,12 +229,12 @@
 
 @media(max-width:520px){
     .text h2{
-        font-size: 1.3em;
+        font-size: 1.6em;
         line-height: 2.5em;
     }
     
     .text h3{
-        font-size: 1em;
+        font-size: 1.2em;
         line-height: 1.5em;
     }
     
@@ -251,6 +251,10 @@
     
     .text a:hover{
         letter-spacing: 3px; 
+    }
+
+    .showcase{
+        padding: 50px;
     }
     
 }
