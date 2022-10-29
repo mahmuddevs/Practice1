@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.banner{
+    background: url("https://th.bing.com/th/id/R.240c5578762f9009378dea6140d4dc6a?rik=qAuNNE2pMOME%2fQ&riu=http%3a%2f%2fwallpapercave.com%2fwp%2fW0EZFqb.jpg&ehk=tqFcpfJH3Qozg5ZoKGP1Yub7pd778s102VvRCj7vuWM%3d&risl=&pid=ImgRaw&r=0");
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.banner p {
+    text-align: center;
+}
+
+
+
+.banner a{
+    margin: 10px;
+    padding: 7px 14px;
+    background-color: purple;
+    text-decoration: none;
+    color: white;    
+    border-radius: 14px;
+    border: 1px solid purple;
+    position: relative;
+}
+
+.banner a:hover{
+    background-color:transparent;
+    color:purple;
+    border: 1px solid purple;
+    transition: 1s;
+}
+
+
+
+
+
+
